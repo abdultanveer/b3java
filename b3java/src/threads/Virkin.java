@@ -6,7 +6,7 @@ public class Virkin extends Thread {
 	public void run() {
 		// TODO Auto-generated method stub
 		super.run();
-		System.out.println("virkin leaving for lunch");
+		System.out.println("virkin leaving for lunch--"+Thread.currentThread().getName());
 	}
 
 }

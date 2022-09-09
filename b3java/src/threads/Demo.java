@@ -9,10 +9,11 @@ public class Demo {
 		 * accountant1.run(); accountant2.run();
 		 */
 		
-		Joyce joyce = new Joyce();
+		Joyce joyce = new Joyce("joyce");
 		Virkin virkin = new Virkin();
 		Zach zach = new Zach();
 		
+		virkin.setName("virkin");
 		virkin.start();
 		zach.start();
 		
